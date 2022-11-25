@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: white;
+}
+.container {
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 600px;
+  width: 500px;
+  text-align: center;
+  margin: 60px 550px;
+  border-radius: 50px;
+}
+.heading {
+  padding: 70px;
+}
+label {
+  width: 150px;
+  color: white;
+  font-size: 1.5em;
+}
+input#fahrenheit {
+  height: 40px;
+  width: 200px;
+  margin-left: 20px;
+  font-size: 1.5em;
+  border-radius: 10px;
+}
+input#fahrenheit:hover {
+  height: 42px;
+  width: 202px;
+  border: 3px solid purple;
+}
+
+input#celsius {
+  height: 40px;
+  width: 200px;
+  margin-left: 52px;
+  font-size: 1.5em;
+  border-radius: 10px;
+}
+input#celsius:hover {
+  height: 42px;
+  width: 202px;
+  border: 3px solid purple;
+}
+input#kelvin {
+  height: 40px;
+  width: 200px;
+  margin-left: 58px;
+  font-size: 1.5em;
+  border-radius: 10px;
+}
+input#kelvin:hover {
+  height: 42px;
+  width: 202px;
+  border: 3px solid purple;
+}
+.box {
+  width: 400px;
+  text-align: left;
+  margin: 25px auto;
+}
+#button {
+  background-color: red;
+  border: none;
+  color: white;
+  width: 130px;
+  height: 50px;
+  padding: 5px 15px;
+  line-height: 1.2em;
+  font-size: 1.4em;
+  text-align: center;
+  margin: 40px 120px;
+  border-radius: 20px;
+}
+#button:hover {
+  height: 53px;
+  width: 133px;
+  font-size: 1.5em;
+  background-color: rgb(155, 8, 8);
+}
